@@ -1,0 +1,119 @@
+@media (min-width: 768px){
+	.content>div{
+		padding-top: 88px;
+	}
+}
+@media (max-width: 768px){
+	.content>div{
+		padding: 0;
+	}
+}
+.content{
+	background-color: #f8f8f8;
+	text-align: left;
+	width: 100%;
+}
+.serve_list{
+	overflow: hidden;
+	padding-left: 0;
+}
+
+.serve_list>li{
+	list-style: none;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.serve_list .serve_msg{
+	padding: 0;
+	padding-left: 8px;
+	float: left;
+}
+.serve_list .serve_pic{
+	padding: 0;
+	height: 100%;
+	float: left;
+}
+ 
+@media (min-width: 992px){
+	.serve_list .serve_msg{
+		width: 80%;
+	}
+	.serve_list .serve_pic{
+		width: 20%;
+	}
+}
+@media (max-width: 768px){
+	.serve_list .serve_msg{
+		width: 75%;
+	}
+	.serve_list .serve_pic{
+		width: 25%;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px){
+	.serve_list .serve_msg{
+		width: 70%;
+	}
+	.serve_list .serve_pic{
+		width: 30%;
+	}
+}
+.serve_msg>.pro .btn{
+	float: right;
+}
+
+@media (min-width: 678px){
+	.serve_list .detail{
+		display: none;
+	}
+	
+}
+@media (max-width: 678px){
+	.serve_msg h3{
+		font-size: 18px;
+	}
+	.serve_msg .limit{
+		display: none;
+	}
+	.serve_msg .ques{
+		line-height: 20px;
+		margin-bottom: 0px;
+	}
+	.serve_list .serve_pic{
+		padding: 0;
+	}
+	.serve_msg>.pro{
+		height: 40px;
+		line-height: 40px;
+	}
+}
+.serve_msg h3{
+	margin-top: 14px;
+	box-sizing: border-box;
+	border-bottom: 1px dashed #ccc;
+}
+.serve_msg h3>a{
+	color: #333;
+}
+.serve_msg h3>a:hover{
+	text-decoration: none;
+	color: #0ba1e4;
+}
+.serve_list .serve_msg>ul{
+	padding: 0;
+	margin:0;
+}
+.serve_list .serve_msg>ul>li{
+	list-style: none;
+	padding-left: 0;
+	line-height: 2em;
+}
+.serve_msg .pro .btn{
+	border:1px solid #f93;
+	color: #f93;
+	transition: all 0.3s;
+}
+.serve_msg .pro .btn:hover{
+	background-color: #f93;
+	color: #fff;
+}
